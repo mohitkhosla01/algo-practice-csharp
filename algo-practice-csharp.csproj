@@ -6,4 +6,7 @@
     <RootNamespace>algo_practice_csharp</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="leetcode\definition\" />
+  </ItemGroup>
 </Project>
