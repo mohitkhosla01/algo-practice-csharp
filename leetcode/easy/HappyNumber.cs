@@ -14,6 +14,7 @@ namespace algo_practice_csharp.leetcode.easy
             Console.WriteLine(happyNumber.IsHappy(31));
             Console.WriteLine(happyNumber.IsHappy(0));
         }
+
         private bool IsHappy(int n)
         {
             HashSet<int> hs = new HashSet<int>();

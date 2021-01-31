@@ -60,6 +60,7 @@ namespace algo_practice_csharp.leetcode.easy
             invertBinaryTree.Print(node);
             Console.WriteLine();
         }
+
         public void Print(TreeNode node)
         {
             if (node != null)
@@ -75,10 +76,12 @@ namespace algo_practice_csharp.leetcode.easy
                 }
             }
         }
+
         public TreeNode InvertTree(TreeNode root)
         {
             return SwapChildNodes(root);
         }
+
         public TreeNode SwapChildNodes(TreeNode node)
         {
             if(node == null)

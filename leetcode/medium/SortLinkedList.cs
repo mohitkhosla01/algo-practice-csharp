@@ -44,6 +44,7 @@ namespace algo_practice_csharp.leetcode.medium
             node = sortLinkedList.SortList(node);
             sortLinkedList.Print(node);
         }
+
         public void Print(ListNode node)
         {
             while(node != null)
@@ -53,6 +54,7 @@ namespace algo_practice_csharp.leetcode.medium
             }
             Console.WriteLine();
         }
+
         public ListNode SortList(ListNode head)
         {
             if(head == null || head.next == null)
@@ -65,6 +67,7 @@ namespace algo_practice_csharp.leetcode.medium
             ListNode right = SortList(rightHead);
             return MergeLists(left, right);
         }
+
         public ListNode GetRightHalf(ListNode node)
         {
             if(node == null)
@@ -83,6 +86,7 @@ namespace algo_practice_csharp.leetcode.medium
             mid.next = null;
             return midNext;
         }
+
         public ListNode MergeLists(ListNode left, ListNode right)
         {
             ListNode newList = new ListNode();
