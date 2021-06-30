@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace algo_practice_csharp.leetcode.easy
 {
     public class MountainArray

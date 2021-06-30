@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace algo_practice_csharp.leetcode.easy
 {
     public class FindNumbersEvenNumberDigits
@@ -15,8 +16,8 @@ namespace algo_practice_csharp.leetcode.easy
             // int[] nums = { 0, 0, 1 };
             // int[] nums = { 0, 0, 5 };
             // int[] nums = { 1 };
-            int[] nums = { 3, 12, 14, 22, 26 };
-            // int[] nums = { 12, 345, 2, 6, 7896 };
+            // int[] nums = { 3, 12, 14, 22, 26 };
+            int[] nums = { 12, 345, 2, 6, 7896 };
             // int[] nums = { 555, 901, 482, 1771 };
 
             int maxOnes = obj.FindNumbers(nums);
