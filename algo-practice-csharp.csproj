@@ -8,6 +8,5 @@
 
   <ItemGroup>
     <Folder Include="leetcode\definition\" />
-    <Folder Include="leetcode\medium\" />
   </ItemGroup>
 </Project>
