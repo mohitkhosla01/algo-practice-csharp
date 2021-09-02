@@ -4,7 +4,7 @@ namespace algo_practice_csharp.leetcode.easy
 {
     public class BinarySearch
     {
-        public static void Main(string[] args)
+        private void Main(string[] args)
         {
             BinarySearch binarySearch = new BinarySearch();
 
