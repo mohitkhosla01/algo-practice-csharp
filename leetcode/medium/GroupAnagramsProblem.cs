@@ -1,19 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace algo_practice_csharp.leetcode.medium
 {
     public class GroupAnagramsProblem
     {
-        public static void Main(string[] args)
+        private void Main(string[] args)
         {
             GroupAnagramsProblem groupAnagramsProblem = new GroupAnagramsProblem();
 
-            // string[] strs = { "eat", "tea", "tan", "ate", "nat", "bat" };
+            string[] strs = { "eat", "tea", "tan", "ate", "nat", "bat" };
             // string[] strs = { };
             // string[] strs = { "a" };
-            string[] strs = { "aba", "abb", "bbb", "bab", "aab", "aaa", "baa", "bba" };
+            // string[] strs = { "aba", "abb", "bbb", "bab", "aab", "aaa", "baa", "bba" };
             // string[] strs = { "cab", "tin", "pew", "duh", "may", "ill", "buy", "bar", "max", "doc" };
 
             IList<IList<string>> anagrams = groupAnagramsProblem.GroupAnagrams(strs);
