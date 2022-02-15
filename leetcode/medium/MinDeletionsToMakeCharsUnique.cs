@@ -5,7 +5,7 @@ namespace algo_practice_csharp.leetcode.medium
 {
     public class MinDeletionsToMakeCharsUnique
     {
-        public static void Main(string[] args)
+        private void Main(string[] args)
         {
             MinDeletionsToMakeCharsUnique obj = new MinDeletionsToMakeCharsUnique();
 
