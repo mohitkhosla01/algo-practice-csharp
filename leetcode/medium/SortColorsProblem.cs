@@ -4,7 +4,7 @@ namespace algo_practice_csharp.leetcode.medium
 {
     public class SortColorsProblem
     {
-        public static void Main(string[] args)
+        private void Main(string[] args)
         {
             SortColorsProblem obj = new SortColorsProblem();
 
